@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <form id="singup-form">
+      <label for="email">Email</label><br />
+      <input id="email" type="email" placeholder="Example@email.com" /><br />
+      <div class="error" id="email-error">
+        Make sure email is more than 3 characters and has @ and ".".
+      </div>
+      <br />
+      <label for="password">Password</label><br />
+      <input id="password" type="password" placeholder="Your Password" /><br />
+      <div class="error" id="password-error">
+        Make sure password id more than 8 characters
+      </div>
+      <br />
+      <div class="success" id="success-message">All good to go!</div>
+      <br />
+      <button type="button">Submit</button>
+    </form>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
